@@ -15,3 +15,5 @@ conanO'Brien  = "hello"
 boomBangs xs = [if x < 10 then "BOOM!" else "BANG!"| x <- xs, odd x]
 
 removeUppercases xs = [x | x <- xs, not (x `elem` ['A'..'Z'])]
+
+removeUppercases xs = [x | x <- xs, not (x `elem` ['A'..'Z'])]
